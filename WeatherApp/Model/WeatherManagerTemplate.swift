@@ -8,14 +8,14 @@
 //    func didfailedwitherror(error: Error)
 //}
 //struct WeatherMAnager {
-//    let weatherURL="https://api.openweathermap.org/data/2.5/weather?units=metric&appid=686dabf47546a90dce715170e8a856d5"
+//    let weatherURL="https://api.openweathermap.org/data/2.5/weather?units=metric&appid=[INSERT YOUR API KEY]"
 //    var delegate: WeatherManagerDelegate?
 //    func fetchWeather(cityName: String){
 //        let urlString="\(weatherURL)&q=\(cityName)"
 //        performerequest(with: urlString)
 //
 //
-//        
+//
 //    }
 //
 //    func fetchweather(latitude: CLLocationDegrees , longitude:CLLocationDegrees  ){
